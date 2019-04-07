@@ -1,0 +1,82 @@
+/* Homework Assignment #1 CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #777777;
+    width: 960px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+p {
+	font-size: 18px;
+    margin: 0px;
+    color: #777777;
+}
+
+header, nav {
+    background-color: #ebebeb;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section {
+	background-color: #ebebeb;
+	width: 495px;
+	padding-top: 20px;
+    padding-bottom: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+article {
+	background-color: #777777;
+	color: #ebebeb;
+	width: 465px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.articlesub {
+    background-color: #ebebeb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;	
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0px;
+    color: #777777;
+    font-weight: bold;
+}
+
+/* I ended up doing a hard height for aside. I feel like there should be an easy way not
+to do this, but I couldn't figure it out.  Ultimately, I used Chrome Dev tools */
+
+aside {
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+    width: 445px;
+    height: 244px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+footer {
+	background-color: #ebebeb;
+	color: #777777;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+}
